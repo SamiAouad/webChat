@@ -1,6 +1,10 @@
 import React, {useEffect, useState} from 'react';
+import {useParams} from "react-router";
+
 
 function Chat({socket, username, room}) {
+    const params = useParams();
+    const chatRoom = params.room;
     const [currentMessage, setCurrentMessage] = useState("")
     const sendMessage = async () => {
         if (currentMessage !== ""){
