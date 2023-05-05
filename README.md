@@ -1,2 +1,2 @@
 # webChat
- this an emplementation of a webChat using nodejs and reactjs
+ this an implementation of a webChat using nodejs and reactjs
